@@ -36,7 +36,6 @@ public class AppInitializer {
         session.save(new Item("II003","Milk",1700,200));
 
         Item i1 = session.get(Item.class, "II003");
-        System.out.println(i1.getItemCode()+" - "+i1.getDescription()+" - "+i1.getUnitPrice()+" - "+i1.getQty());
 
         Item i2= new Item("II003","Milk",1950,250);
         session.update(i2);
@@ -77,7 +76,6 @@ public class AppInitializer {
         session.update(dd1);
 
         session.delete(session.get(OrderDetails.class,"ODT006"));
-
 
         transaction.commit();
 
