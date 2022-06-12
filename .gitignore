@@ -1,5 +1,5 @@
 #IntelliJ files
-#**/*.iml
+**/*.iml
 **/.idea
 **/.gradle
 /out
