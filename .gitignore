@@ -2,6 +2,6 @@
 **/*.iml
 **/.idea
 **/.gradle
-/out
+out/
 
 lib/
