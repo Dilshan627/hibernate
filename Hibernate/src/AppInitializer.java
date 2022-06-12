@@ -23,7 +23,7 @@ public class AppInitializer {
         session.save(new Customer("CI003","Isuru","Colombo",80000.00));
 
         Customer c1 = session.get(Customer.class, "CI002");
-        System.out.println(c1.getId()+" - "+c1.getName()+" - "+c1.getSalary()+" - "+c1.getAddress());
+
 
         Customer c2 = new Customer("CI003","Isuru","Bandaragama",80000.00);
         session.update(c2);
